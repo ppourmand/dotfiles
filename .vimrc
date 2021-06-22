@@ -112,12 +112,12 @@ if filereadable(expand('~/.vim/autoload/plug.vim'))
   Plug 'mhinz/vim-signify'
   Plug 'Yggdroot/indentLine'
   Plug 'tpope/vim-commentary'
-  Plug 'dracula/vim'
   Plug 'preservim/nerdtree'
-  Plug 'sonph/onehalf', { 'rtp': 'vim' }
   Plug 'tpope/vim-fugitive'
+  Plug 'dracula/vim'
   Plug 'vim-airline/vim-airline'
+  Plug 'sheerun/vim-polyglot'
   call plug#end()
 endif
 
-colorscheme onehalfdark
+colorscheme dracula
